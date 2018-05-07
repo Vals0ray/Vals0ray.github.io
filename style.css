@@ -37,6 +37,7 @@ nav {
 }
 
 nav {
+	order: -1;
 	border-right: 2px solid black;
 }
  
