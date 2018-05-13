@@ -1,57 +1,119 @@
-*{
-	box-sizing: border-box;
-	
-}
-html, body {
-	background-color: #93c3ed;
-	padding: 0;
-	margin: 0;
-	font-family: verdana, arial, sans-serif;
+html {
+	background-image: url('img/background.jpg');
+	height: 100%;
+	}
+
+nav, header {
+	display: flex;
 }
 
-body {
-	color: #fff;
-	font-size: 1.1em;
-	padding: 1em;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+header {
+	border: 2px solid black;
+	background-color: #f48c42;
+	border-radius: 30px;
 }
 
-main {
+nav article, nav menu {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+header{
+	font-family: CONSOLAS;
+}
+
+#logo, #name{
+	padding: 5px;
 	display: flex;
-	flex-direction: row;
-	min-height: 100%;
-	flex: 1 1 auto;
+	text-shadow: 2px 2px 2px gray;
+}
+
+
+menu {
+	margin-left: 50px;
+	margin-right: 25px;
+	flex: 1;
+	height: 450px;
+	background-color: #f48c42;
 }
 
 article {
-	background-color: #3a73a5;
-	flex: 2 2 12em;
-	padding: 1em;
+	margin-right: 50px;
+	flex: 4;
+	background-color: #f48c42;
 }
 
-nav {
-	flex: 1;
-	background-color: #42a1f4;
+img, p {
+	display: flex;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-nav {
-	order: -1;
-	border-right: 2px solid black;
-}
- 
-header, footer {
-	flex: 0 0 auto;
-	background-color: #255d8e;
-}
- 
-#footer{
-	text-align: right;
-	padding-right: 15px;
+hr {
+	height: 1px;
+	border: none;
+	background-color: black;
+	color: black;
 }
 
-header, footer, main{
-	border: 2px solid black;
+h3{
+	font-family: ARIAL;
+}
+
+/*/ MENU /*/
+.menu{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px dashed black;
 	border-radius: 5px;
+	display: flex;
+	height: 50px;
+	text-decoration: none;
+	align-items: center;
+	justify-content: space-around;
+	font-style: bold;
+	font-size: 16px;
+	font-family: ARIAL;
+	color: black;
 }
+ul#headmenu{
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu:hover{
+	background-color: gray;
+	text-decoration: underline;
+}
+
+#menu {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	align-items: center;
+}
+
+.submenu {
+	display: flex;
+	display: none;
+	
+}
+
+.films {
+	padding: 5px;
+}
+ul li:hover ul.submenu {
+	display: block;
+}
+
+a{
+	color: black;
+	text-decoration:  none;
+}
+a:hover{
+	text-decoration:  underline;
+}
+/*/ MENU /*/
