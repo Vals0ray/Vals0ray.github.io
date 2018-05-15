@@ -1,9 +1,11 @@
-html {
+body {
 	background-image: url('img/background.jpg');
-	height: 100%;
-	}
+	display: flex;
+	min-height: 95vh;
+	flex-direction: column;
+}
 
-nav, header {
+nav, header, footer {
 	display: flex;
 }
 
@@ -11,18 +13,34 @@ header {
 	border: 2px solid black;
 	background-color: #f48c42;
 	border-radius: 30px;
+	font-family: CONSOLAS;
+}
+
+footer {
+	border: 2px solid black;
+	background-color: #f48c42;
+	border-radius: 30px;
+	font-family: CONSOLAS;
+	height: 45px;
+	justify-content:center;
+
+}
+
+#headnav {
+	flex: 10;
+}
+
+#headfooter {
+	flex: 1;
 }
 
 nav article, nav menu {
+	
 	margin-top: 25px;
 	margin-bottom: 25px;
 	padding: 10px;
 	border: 2px solid black;
 	border-radius: 10px;
-}
-
-header{
-	font-family: CONSOLAS;
 }
 
 #logo, #name{
@@ -31,12 +49,11 @@ header{
 	text-shadow: 2px 2px 2px gray;
 }
 
-
 menu {
 	margin-left: 50px;
 	margin-right: 25px;
 	flex: 1;
-	height: 450px;
+	
 	background-color: #f48c42;
 }
 
@@ -44,6 +61,7 @@ article {
 	margin-right: 50px;
 	flex: 4;
 	background-color: #f48c42;
+	
 }
 
 img, p {
@@ -62,6 +80,24 @@ hr {
 h3{
 	font-family: ARIAL;
 }
+
+/*/FOTER/*/
+#social {
+	margin-left: -100px;
+	display: flex;	
+	align-items: center;
+	justify-content:center;
+	
+}
+.socialleft{
+
+}
+
+.socialright{
+	width: 25px;
+}
+
+/*/FOTER/*/
 
 /*/ MENU /*/
 .menu{
