@@ -1,0 +1,15 @@
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\bin\Debug\TicTacToeV2.exe.config
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\bin\Debug\TicTacToeV2.exe
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\bin\Debug\TicTacToeV2.pdb
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.csprojAssemblyReference.cache
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\MainWindow.g.cs
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\App.g.cs
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2_MarkupCompile.cache
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2_MarkupCompile.lref
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\MainWindow.baml
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.g.resources
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.Properties.Resources.resources
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.csproj.GenerateResource.cache
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.csproj.CoreCompileInputs.cache
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.exe
+D:\NULP_SA\CSharp\Projects\TicTacToeV2\obj\Debug\TicTacToeV2.pdb
